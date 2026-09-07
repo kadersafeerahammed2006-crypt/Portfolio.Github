@@ -444,6 +444,83 @@ section { padding: 100px 2rem; }
   padding: 3px 10px; border-radius: 100px;
 }
 
+.project-category {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--accent);
+  margin-bottom: 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-features {
+  list-style: none;
+  margin: 0.75rem 0 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-features li {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.project-features li svg {
+  flex-shrink: 0;
+  color: var(--accent);
+  margin-top: 3px;
+}
+
+.project-actions {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.project-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.25s;
+  width: fit-content;
+}
+
+.project-action-btn.green {
+  color: #22c55e;
+  border: 1px solid rgba(34,197,94,0.35);
+  background: rgba(34,197,94,0.08);
+}
+
+.project-action-btn.green:hover {
+  background: rgba(34,197,94,0.22);
+  border-color: #22c55e;
+  transform: translateY(-2px);
+}
+
+.project-action-btn.purple {
+  color: #a855f7;
+  border: 1px solid rgba(168,85,247,0.35);
+  background: rgba(168,85,247,0.08);
+}
+
+.project-action-btn.purple:hover {
+  background: rgba(168,85,247,0.22);
+  border-color: #a855f7;
+  transform: translateY(-2px);
+}
+
 /* NAAN MUDHALVAN */
 #naan-mudhalvan { background: var(--dark); }
 
