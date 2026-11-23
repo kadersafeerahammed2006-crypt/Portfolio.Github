@@ -521,6 +521,18 @@ section { padding: 100px 2rem; }
   transform: translateY(-2px);
 }
 
+.project-action-btn.blue {
+  color: #38bdf8;
+  border: 1px solid rgba(56,189,248,0.35);
+  background: rgba(56,189,248,0.08);
+}
+
+.project-action-btn.blue:hover {
+  background: rgba(56,189,248,0.22);
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+}
+
 /* NAAN MUDHALVAN */
 #naan-mudhalvan { background: var(--dark); }
 
